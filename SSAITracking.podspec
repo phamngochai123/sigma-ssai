@@ -9,11 +9,11 @@ Pod::Spec.new do |spec|
   spec.author             = { "TDM" => "..." }
   spec.source             = { :git => 'https://github.com/phamngochai123/sigma-ssai.git', :tag => "#{spec.version}" }
   spec.swift_version      = "5.3"
-  spec.source_files = "SSAITracking/**/*.{h,m.swift}"
+  spec.source_files = "SSAITracking/**/*"
 
   # Supported deployment targets
   spec.ios.deployment_target  = "13.4"
 
   # Published binaries
-  vendored_frameworks = "SSAITracking.xcframework"
+  spec.vendored_frameworks = "libs/ProgrammaticAccessLibrary.xcframework"
 end
