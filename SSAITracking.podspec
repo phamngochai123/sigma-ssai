@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "SSAITracking"
-  spec.version            = "1.0.5"
+  spec.version            = "1.0.6"
   spec.summary            = "SimgaSSAI Library for iOS apps"
   spec.description        = "TDM SimgaSSAI Library for iOS apps"
   spec.homepage           = "https://github.com/sigmaott/sigma-ssai-avplayer-sdk"
