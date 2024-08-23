@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.documentation_url  = "..."
   spec.license            = { :type => "MIT" }
   spec.author             = { "TDM" => "..." }
-  spec.source             = { :git => 'https://github.com/sigmaott/sigma-ssai-avplayer-sdk.git', :tag => "#{spec.version}" }
+  spec.source             = { :git => 'https://github.com/phamngochai123/sigma-ssai.git', :tag => "#{spec.version}" }
   spec.swift_version      = "5.3"
   spec.source_files = "SSAITracking/**/*.{h,m.swift}"
 
