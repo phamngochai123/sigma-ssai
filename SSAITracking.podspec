@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "SSAITracking"
-  spec.version            = "1.0.4"
+  spec.version            = "1.0.5"
   spec.summary            = "SimgaSSAI Library for iOS apps"
   spec.description        = "TDM SimgaSSAI Library for iOS apps"
   spec.homepage           = "https://github.com/sigmaott/sigma-ssai-avplayer-sdk"
@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = "12.4"
 
   # Published binaries
-  spec.vendored_frameworks = "libs/ProgrammaticAccessLibrary.xcframework"
+  spec.vendored_frameworks = "libs/ProgrammaticAccessLibrary.xcframework", "SSAITracking.xcframework"
 end
