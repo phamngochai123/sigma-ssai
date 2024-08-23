@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "TDM" => "multimediathudojsc@gmail.com" }
   spec.source             = { :git => 'https://github.com/phamngochai123/sigma-ssai.git', :tag => "#{spec.version}" }
   spec.swift_version      = "5.3"
-  spec.source_files = "SSAITracking/**/*.{h,m,swift}"
+  spec.source_files = "SSAITracking/**/*.{h}"
 
   # Supported deployment targets
   spec.ios.deployment_target  = "12.4"
