@@ -1,0 +1,4 @@
+framework module SSAITracking {
+  header "SSAITracking-Swift.h"
+  requires objc
+}

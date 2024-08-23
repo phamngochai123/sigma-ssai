@@ -1,0 +1,5336 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSAITracking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SSAITracking"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SSAITracking"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "SSAITracking"
+      },
+      {
+        "kind": "Import",
+        "name": "ProgrammaticAccessLibrary",
+        "printedName": "ProgrammaticAccessLibrary",
+        "declKind": "Import",
+        "moduleName": "SSAITracking"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "SSAITracking"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "SSAITracking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdsEvent",
+        "printedName": "AdsEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "impression",
+            "printedName": "impression",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO10impressionyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO10impressionyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "start",
+            "printedName": "start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO5startyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO5startyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "firstQuartile",
+            "printedName": "firstQuartile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO13firstQuartileyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO13firstQuartileyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "complete",
+            "printedName": "complete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO8completeyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO8completeyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "thirdQuartile",
+            "printedName": "thirdQuartile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO13thirdQuartileyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO13thirdQuartileyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "mute",
+            "printedName": "mute",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO4muteyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO4muteyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "unmute",
+            "printedName": "unmute",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO6unmuteyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO6unmuteyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "pause",
+            "printedName": "pause",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO5pauseyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO5pauseyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "resume",
+            "printedName": "resume",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO6resumeyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO6resumeyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "progress",
+            "printedName": "progress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO8progressyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO8progressyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "midpoint",
+            "printedName": "midpoint",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SSAITracking.AdsEvent.Type) -> SSAITracking.AdsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SSAITracking.AdsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsEvent",
+                        "printedName": "SSAITracking.AdsEvent",
+                        "usr": "s:12SSAITracking8AdsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SSAITracking8AdsEventO8midpointyA2CmF",
+            "mangledName": "$s12SSAITracking8AdsEventO8midpointyA2CmF",
+            "moduleName": "SSAITracking",
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SSAITracking.AdsEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsEvent",
+                    "printedName": "SSAITracking.AdsEvent",
+                    "usr": "s:12SSAITracking8AdsEventO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SSAITracking8AdsEventO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12SSAITracking8AdsEventO8rawValueACSgSS_tcfc",
+            "moduleName": "SSAITracking",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking8AdsEventO8rawValueSSvp",
+            "mangledName": "$s12SSAITracking8AdsEventO8rawValueSSvp",
+            "moduleName": "SSAITracking",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking8AdsEventO8rawValueSSvg",
+                "mangledName": "$s12SSAITracking8AdsEventO8rawValueSSvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12SSAITracking8AdsEventO",
+        "mangledName": "$s12SSAITracking8AdsEventO",
+        "moduleName": "SSAITracking",
+        "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "PALTitleAlert",
+        "printedName": "PALTitleAlert",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12SSAITracking13PALTitleAlertSSvp",
+        "mangledName": "$s12SSAITracking13PALTitleAlertSSvp",
+        "moduleName": "SSAITracking",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "PALTitleAlertOKAction",
+        "printedName": "PALTitleAlertOKAction",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12SSAITracking21PALTitleAlertOKActionSSvp",
+        "mangledName": "$s12SSAITracking21PALTitleAlertOKActionSSvp",
+        "moduleName": "SSAITracking",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "listEventCallByPlaybackTime",
+        "printedName": "listEventCallByPlaybackTime",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12SSAITracking27listEventCallByPlaybackTimeSaySSGvp",
+        "mangledName": "$s12SSAITracking27listEventCallByPlaybackTimeSaySSGvp",
+        "moduleName": "SSAITracking",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "listEventCallByGesture",
+        "printedName": "listEventCallByGesture",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12SSAITracking22listEventCallByGestureSaySSGvp",
+        "mangledName": "$s12SSAITracking22listEventCallByGestureSaySSGvp",
+        "moduleName": "SSAITracking",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "screenSize",
+        "printedName": "screenSize",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "CGRect",
+            "printedName": "CoreFoundation.CGRect",
+            "usr": "c:@S@CGRect"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12SSAITracking10screenSizeSo6CGRectVvp",
+        "mangledName": "$s12SSAITracking10screenSizeSo6CGRectVvp",
+        "moduleName": "SSAITracking",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SigmaSSAI",
+        "printedName": "SigmaSSAI",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nonceLoader",
+            "printedName": "nonceLoader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "ProgrammaticAccessLibrary.NonceLoader?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NonceLoader",
+                    "printedName": "ProgrammaticAccessLibrary.NonceLoader",
+                    "usr": "c:objc(cs)PALNonceLoader"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC11nonceLoaderSo08PALNonceE0CSgvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11nonceLoaderSo08PALNonceE0CSgvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "ProgrammaticAccessLibrary.NonceLoader?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NonceLoader",
+                        "printedName": "ProgrammaticAccessLibrary.NonceLoader",
+                        "usr": "c:objc(cs)PALNonceLoader"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11nonceLoaderSo08PALNonceE0CSgvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11nonceLoaderSo08PALNonceE0CSgvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "ProgrammaticAccessLibrary.NonceLoader?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NonceLoader",
+                        "printedName": "ProgrammaticAccessLibrary.NonceLoader",
+                        "usr": "c:objc(cs)PALNonceLoader"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11nonceLoaderSo08PALNonceE0CSgvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11nonceLoaderSo08PALNonceE0CSgvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11nonceLoaderSo08PALNonceE0CSgvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11nonceLoaderSo08PALNonceE0CSgvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nonceManager",
+            "printedName": "nonceManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ProgrammaticAccessLibrary.NonceManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NonceManager",
+                    "printedName": "ProgrammaticAccessLibrary.NonceManager",
+                    "usr": "c:objc(cs)PALNonceManager"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC12nonceManagerSo08PALNonceE0CSgvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC12nonceManagerSo08PALNonceE0CSgvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ProgrammaticAccessLibrary.NonceManager?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NonceManager",
+                        "printedName": "ProgrammaticAccessLibrary.NonceManager",
+                        "usr": "c:objc(cs)PALNonceManager"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12nonceManagerSo08PALNonceE0CSgvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12nonceManagerSo08PALNonceE0CSgvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ProgrammaticAccessLibrary.NonceManager?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NonceManager",
+                        "printedName": "ProgrammaticAccessLibrary.NonceManager",
+                        "usr": "c:objc(cs)PALNonceManager"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12nonceManagerSo08PALNonceE0CSgvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12nonceManagerSo08PALNonceE0CSgvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12nonceManagerSo08PALNonceE0CSgvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12nonceManagerSo08PALNonceE0CSgvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nonce",
+            "printedName": "nonce",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC5nonceSSvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC5nonceSSvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC5nonceSSvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC5nonceSSvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC5nonceSSvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC5nonceSSvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC5nonceSSvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC5nonceSSvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoView",
+            "printedName": "videoView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC9videoViewSo6UIViewCvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC9videoViewSo6UIViewCvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC9videoViewSo6UIViewCvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC9videoViewSo6UIViewCvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC9videoViewSo6UIViewCvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC9videoViewSo6UIViewCvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC9videoViewSo6UIViewCvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC9videoViewSo6UIViewCvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionUrl",
+            "printedName": "sessionUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC10sessionUrlSSvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC10sessionUrlSSvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC10sessionUrlSSvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC10sessionUrlSSvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC10sessionUrlSSvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC10sessionUrlSSvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC10sessionUrlSSvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC10sessionUrlSSvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_trackingUrl",
+            "printedName": "_trackingUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC12_trackingUrlSSvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC12_trackingUrlSSvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12_trackingUrlSSvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12_trackingUrlSSvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12_trackingUrlSSvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12_trackingUrlSSvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12_trackingUrlSSvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12_trackingUrlSSvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoUrl",
+            "printedName": "videoUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC8videoUrlSSvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC8videoUrlSSvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC8videoUrlSSvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC8videoUrlSSvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC8videoUrlSSvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC8videoUrlSSvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC8videoUrlSSvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC8videoUrlSSvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_player",
+            "printedName": "_player",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVPlayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayer",
+                    "printedName": "AVFoundation.AVPlayer",
+                    "usr": "c:objc(cs)AVPlayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC7_playerSo8AVPlayerCSgvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC7_playerSo8AVPlayerCSgvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVPlayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayer",
+                        "printedName": "AVFoundation.AVPlayer",
+                        "usr": "c:objc(cs)AVPlayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC7_playerSo8AVPlayerCSgvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC7_playerSo8AVPlayerCSgvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVPlayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayer",
+                        "printedName": "AVFoundation.AVPlayer",
+                        "usr": "c:objc(cs)AVPlayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC7_playerSo8AVPlayerCSgvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC7_playerSo8AVPlayerCSgvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC7_playerSo8AVPlayerCSgvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC7_playerSo8AVPlayerCSgvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_playerLayer",
+            "printedName": "_playerLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVPlayerLayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayerLayer",
+                    "printedName": "AVFoundation.AVPlayerLayer",
+                    "usr": "c:objc(cs)AVPlayerLayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC12_playerLayerSo08AVPlayerE0CSgvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC12_playerLayerSo08AVPlayerE0CSgvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVPlayerLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayerLayer",
+                        "printedName": "AVFoundation.AVPlayerLayer",
+                        "usr": "c:objc(cs)AVPlayerLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12_playerLayerSo08AVPlayerE0CSgvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12_playerLayerSo08AVPlayerE0CSgvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVPlayerLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayerLayer",
+                        "printedName": "AVFoundation.AVPlayerLayer",
+                        "usr": "c:objc(cs)AVPlayerLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12_playerLayerSo08AVPlayerE0CSgvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12_playerLayerSo08AVPlayerE0CSgvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12_playerLayerSo08AVPlayerE0CSgvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12_playerLayerSo08AVPlayerE0CSgvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timerTracking",
+            "printedName": "timerTracking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Timer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Timer",
+                    "printedName": "Foundation.Timer",
+                    "usr": "c:objc(cs)NSTimer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC13timerTrackingSo7NSTimerCSgvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC13timerTrackingSo7NSTimerCSgvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13timerTrackingSo7NSTimerCSgvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13timerTrackingSo7NSTimerCSgvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13timerTrackingSo7NSTimerCSgvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13timerTrackingSo7NSTimerCSgvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13timerTrackingSo7NSTimerCSgvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13timerTrackingSo7NSTimerCSgvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playbackTime",
+            "printedName": "playbackTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC12playbackTimeSdvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC12playbackTimeSdvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12playbackTimeSdvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12playbackTimeSdvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12playbackTimeSdvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12playbackTimeSdvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12playbackTimeSdvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12playbackTimeSdvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adsDataFormat",
+            "printedName": "adsDataFormat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC13adsDataFormatSaySDySSypGGvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC13adsDataFormatSaySDySSypGGvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Any]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13adsDataFormatSaySDySSypGGvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13adsDataFormatSaySDySSypGGvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Any]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13adsDataFormatSaySDySSypGGvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13adsDataFormatSaySDySSypGGvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13adsDataFormatSaySDySSypGGvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13adsDataFormatSaySDySSypGGvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adsDataGestureFormat",
+            "printedName": "adsDataGestureFormat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC20adsDataGestureFormatSaySDySSypGGvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC20adsDataGestureFormatSaySDySSypGGvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Any]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC20adsDataGestureFormatSaySDySSypGGvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC20adsDataGestureFormatSaySDySSypGGvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Any]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC20adsDataGestureFormatSaySDySSypGGvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC20adsDataGestureFormatSaySDySSypGGvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC20adsDataGestureFormatSaySDySSypGGvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC20adsDataGestureFormatSaySDySSypGGvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ssaiCallback",
+            "printedName": "ssaiCallback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SSAITracking.SigmaSSAIInterface?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SigmaSSAIInterface",
+                    "printedName": "SSAITracking.SigmaSSAIInterface",
+                    "usr": "s:12SSAITracking18SigmaSSAIInterfaceP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC12ssaiCallbackAA0B13SSAIInterface_pSgvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC12ssaiCallbackAA0B13SSAIInterface_pSgvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SSAITracking.SigmaSSAIInterface?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SigmaSSAIInterface",
+                        "printedName": "SSAITracking.SigmaSSAIInterface",
+                        "usr": "s:12SSAITracking18SigmaSSAIInterfaceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12ssaiCallbackAA0B13SSAIInterface_pSgvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12ssaiCallbackAA0B13SSAIInterface_pSgvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SSAITracking.SigmaSSAIInterface?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SigmaSSAIInterface",
+                        "printedName": "SSAITracking.SigmaSSAIInterface",
+                        "usr": "s:12SSAITracking18SigmaSSAIInterfaceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12ssaiCallbackAA0B13SSAIInterface_pSgvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12ssaiCallbackAA0B13SSAIInterface_pSgvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12ssaiCallbackAA0B13SSAIInterface_pSgvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12ssaiCallbackAA0B13SSAIInterface_pSgvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isStartPlay",
+            "printedName": "isStartPlay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC11isStartPlaySbvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11isStartPlaySbvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11isStartPlaySbvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11isStartPlaySbvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11isStartPlaySbvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11isStartPlaySbvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11isStartPlaySbvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11isStartPlaySbvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iconWta",
+            "printedName": "iconWta",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC7iconWtaSDySSypGSgvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC7iconWtaSDySSypGSgvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC7iconWtaSDySSypGSgvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC7iconWtaSDySSypGSgvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC7iconWtaSDySSypGSgvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC7iconWtaSDySSypGSgvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC7iconWtaSDySSypGSgvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC7iconWtaSDySSypGSgvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showingIconWta",
+            "printedName": "showingIconWta",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC14showingIconWtaSbvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC14showingIconWtaSbvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC14showingIconWtaSbvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC14showingIconWtaSbvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC14showingIconWtaSbvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC14showingIconWtaSbvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC14showingIconWtaSbvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC14showingIconWtaSbvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iconImageView",
+            "printedName": "iconImageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC13iconImageViewSo07UIImageF0Cvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC13iconImageViewSo07UIImageF0Cvp",
+            "moduleName": "SSAITracking",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13iconImageViewSo07UIImageF0Cvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13iconImageViewSo07UIImageF0Cvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoContainerView",
+            "printedName": "videoContainerView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC18videoContainerViewSo6UIViewCvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC18videoContainerViewSo6UIViewCvp",
+            "moduleName": "SSAITracking",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC18videoContainerViewSo6UIViewCvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC18videoContainerViewSo6UIViewCvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeObserverToken",
+            "printedName": "timeObserverToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC17timeObserverTokenypSgvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC17timeObserverTokenypSgvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC17timeObserverTokenypSgvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC17timeObserverTokenypSgvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC17timeObserverTokenypSgvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC17timeObserverTokenypSgvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC17timeObserverTokenypSgvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC17timeObserverTokenypSgvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "needUpdatePositionIconWta",
+            "printedName": "needUpdatePositionIconWta",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC25needUpdatePositionIconWtaSbvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC25needUpdatePositionIconWtaSbvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC25needUpdatePositionIconWtaSbvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC25needUpdatePositionIconWtaSbvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC25needUpdatePositionIconWtaSbvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC25needUpdatePositionIconWtaSbvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC25needUpdatePositionIconWtaSbvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC25needUpdatePositionIconWtaSbvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastSizeVideoView",
+            "printedName": "lastSizeVideoView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC17lastSizeVideoViewSo6CGRectVvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC17lastSizeVideoViewSo6CGRectVvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC17lastSizeVideoViewSo6CGRectVvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC17lastSizeVideoViewSo6CGRectVvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC17lastSizeVideoViewSo6CGRectVvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC17lastSizeVideoViewSo6CGRectVvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC17lastSizeVideoViewSo6CGRectVvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC17lastSizeVideoViewSo6CGRectVvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "waittingNonce",
+            "printedName": "waittingNonce",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC13waittingNonceSbvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC13waittingNonceSbvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13waittingNonceSbvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13waittingNonceSbvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13waittingNonceSbvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13waittingNonceSbvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC13waittingNonceSbvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC13waittingNonceSbvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adsRunning",
+            "printedName": "adsRunning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC10adsRunningSbvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC10adsRunningSbvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC10adsRunningSbvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC10adsRunningSbvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC10adsRunningSbvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC10adsRunningSbvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC10adsRunningSbvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC10adsRunningSbvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastIsMuted",
+            "printedName": "lastIsMuted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC11lastIsMutedSbvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11lastIsMutedSbvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11lastIsMutedSbvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11lastIsMutedSbvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11lastIsMutedSbvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11lastIsMutedSbvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11lastIsMutedSbvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11lastIsMutedSbvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastPaused",
+            "printedName": "lastPaused",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC10lastPausedSbvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC10lastPausedSbvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC10lastPausedSbvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC10lastPausedSbvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC10lastPausedSbvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC10lastPausedSbvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC10lastPausedSbvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC10lastPausedSbvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "periodicTime",
+            "printedName": "periodicTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC12periodicTimeSdvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC12periodicTimeSdvp",
+            "moduleName": "SSAITracking",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC12periodicTimeSdvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC12periodicTimeSdvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "formateData",
+            "printedName": "formateData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC11formateDataSbvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11formateDataSbvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11formateDataSbvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11formateDataSbvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11formateDataSbvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11formateDataSbvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC11formateDataSbvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC11formateDataSbvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentStartAdId",
+            "printedName": "currentStartAdId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC16currentStartAdIdSSvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC16currentStartAdIdSSvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC16currentStartAdIdSSvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC16currentStartAdIdSSvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC16currentStartAdIdSSvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC16currentStartAdIdSSvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC16currentStartAdIdSSvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC16currentStartAdIdSSvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "countCallTracking",
+            "printedName": "countCallTracking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC17countCallTrackingSivp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC17countCallTrackingSivp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC17countCallTrackingSivg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC17countCallTrackingSivg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC17countCallTrackingSivs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC17countCallTrackingSivs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC17countCallTrackingSivM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC17countCallTrackingSivM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showLog",
+            "printedName": "showLog",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SSAITracking9SigmaSSAIC7showLogSbvp",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC7showLogSbvp",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC7showLogSbvg",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC7showLogSbvg",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC7showLogSbvs",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC7showLogSbvs",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SSAITracking9SigmaSSAIC7showLogSbvM",
+                "mangledName": "$s12SSAITracking9SigmaSSAIC7showLogSbvM",
+                "moduleName": "SSAITracking",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SigmaSSAI",
+                "printedName": "SSAITracking.SigmaSSAI",
+                "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SigmaSSAIInterface",
+                "printedName": "SSAITracking.SigmaSSAIInterface",
+                "usr": "s:12SSAITracking18SigmaSSAIInterfaceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SSAITracking9SigmaSSAICyACSS_AA0B13SSAIInterface_pSo6UIViewCtcfc",
+            "mangledName": "$s12SSAITracking9SigmaSSAICyACSS_AA0B13SSAIInterface_pSo6UIViewCtcfc",
+            "moduleName": "SSAITracking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setTrackingUrl",
+            "printedName": "setTrackingUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC14setTrackingUrlyySSF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC14setTrackingUrlyySSF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setShowLog",
+            "printedName": "setShowLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC10setShowLogyySbF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC10setShowLogyySbF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestNonceManager",
+            "printedName": "requestNonceManager()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC19requestNonceManageryyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC19requestNonceManageryyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentMessage",
+            "printedName": "presentMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC14presentMessageyySSF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC14presentMessageyySSF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "palSendPlaybackStart",
+            "printedName": "palSendPlaybackStart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC20palSendPlaybackStartyyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC20palSendPlaybackStartyyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "palSendPlaybackEnd",
+            "printedName": "palSendPlaybackEnd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC18palSendPlaybackEndyyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC18palSendPlaybackEndyyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "palSendAdClick",
+            "printedName": "palSendAdClick()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC14palSendAdClickyyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC14palSendAdClickyyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nonceLoader",
+            "printedName": "nonceLoader(_:with:didLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NonceLoader",
+                "printedName": "ProgrammaticAccessLibrary.NonceLoader",
+                "usr": "c:objc(cs)PALNonceLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NonceRequest",
+                "printedName": "ProgrammaticAccessLibrary.NonceRequest",
+                "usr": "c:objc(cs)PALNonceRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NonceManager",
+                "printedName": "ProgrammaticAccessLibrary.NonceManager",
+                "usr": "c:objc(cs)PALNonceManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI(im)nonceLoader:withRequest:didLoadNonceManager:",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11nonceLoader_4with7didLoadySo08PALNonceE0C_So0I7RequestCSo0I7ManagerCtF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "objc_name": "nonceLoader:withRequest:didLoadNonceManager:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nonceLoader",
+            "printedName": "nonceLoader(_:with:didFailWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NonceLoader",
+                "printedName": "ProgrammaticAccessLibrary.NonceLoader",
+                "usr": "c:objc(cs)PALNonceLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NonceRequest",
+                "printedName": "ProgrammaticAccessLibrary.NonceRequest",
+                "usr": "c:objc(cs)PALNonceRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI(im)nonceLoader:withRequest:didFailWithError:",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11nonceLoader_4with11didFailWithySo08PALNonceE0C_So0J7RequestCs5Error_ptF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "objc_name": "nonceLoader:withRequest:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updatePlaybackTime",
+            "printedName": "updatePlaybackTime(playbackTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC18updatePlaybackTime08playbackF0ySd_tF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC18updatePlaybackTime08playbackF0ySd_tF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "metadataOutput",
+            "printedName": "metadataOutput(_:didOutputTimedMetadataGroups:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVPlayerItemMetadataOutput",
+                "printedName": "AVFoundation.AVPlayerItemMetadataOutput",
+                "usr": "c:objc(cs)AVPlayerItemMetadataOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AVFoundation.AVTimedMetadataGroup]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVTimedMetadataGroup",
+                    "printedName": "AVFoundation.AVTimedMetadataGroup",
+                    "usr": "c:objc(cs)AVTimedMetadataGroup"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVPlayerItemTrack?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayerItemTrack",
+                    "printedName": "AVFoundation.AVPlayerItemTrack",
+                    "usr": "c:objc(cs)AVPlayerItemTrack"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI(im)metadataOutput:didOutputTimedMetadataGroups:fromPlayerItemTrack:",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC14metadataOutput_03didE19TimedMetadataGroups4fromySo012AVPlayerItemhE0C_SaySo07AVTimedH5GroupCGSo0kL5TrackCSgtF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "objc_name": "metadataOutput:didOutputTimedMetadataGroups:fromPlayerItemTrack:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "legibleOutput",
+            "printedName": "legibleOutput(_:didOutputAttributedStrings:nativeSampleBuffers:forItemTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVPlayerItemLegibleOutput",
+                "printedName": "AVFoundation.AVPlayerItemLegibleOutput",
+                "usr": "c:objc(cs)AVPlayerItemLegibleOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.NSAttributedString]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAttributedString",
+                    "printedName": "Foundation.NSAttributedString",
+                    "usr": "c:objc(cs)NSAttributedString"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI(im)legibleOutput:didOutputAttributedStrings:nativeSampleBuffers:forItemTime:",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC13legibleOutput_03didE17AttributedStrings19nativeSampleBuffers11forItemTimeySo08AVPlayerm7LegibleE0C_SaySo18NSAttributedStringCGSayypGSo6CMTimeatF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "objc_name": "legibleOutput:didOutputAttributedStrings:nativeSampleBuffers:forItemTime:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlayer",
+            "printedName": "setPlayer(_:avPlayerLayer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVPlayer",
+                "printedName": "AVFoundation.AVPlayer",
+                "usr": "c:objc(cs)AVPlayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVPlayerLayer",
+                "printedName": "AVFoundation.AVPlayerLayer",
+                "usr": "c:objc(cs)AVPlayerLayer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC9setPlayer_02avE5LayerySo8AVPlayerC_So0hG0CtF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC9setPlayer_02avE5LayerySo8AVPlayerC_So0hG0CtF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playerError",
+            "printedName": "playerError(playerError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC11playerErrorADyyp_tF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11playerErrorADyyp_tF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC7destroyyyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC7destroyyyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC5clearyyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC5clearyyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSSAILink",
+            "printedName": "setSSAILink(SSAILink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC11setSSAILink0E0ySS_tF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11setSSAILink0E0ySS_tF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getVideoAndTrackingUrl",
+            "printedName": "getVideoAndTrackingUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC22getVideoAndTrackingUrlyyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC22getVideoAndTrackingUrlyyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onStartPlay",
+            "printedName": "onStartPlay()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC11onStartPlayyyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11onStartPlayyyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearIntervalTracking",
+            "printedName": "clearIntervalTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC21clearIntervalTrackingyyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC21clearIntervalTrackingyyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formatDataTracking",
+            "printedName": "formatDataTracking(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC18formatDataTracking4dataySDySSypG_tF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC18formatDataTracking4dataySDySSypG_tF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkPlayerState",
+            "printedName": "checkPlayerState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC16checkPlayerStateSbyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC16checkPlayerStateSbyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAdsPlaying",
+            "printedName": "checkAdsPlaying()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC15checkAdsPlayingSbyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC15checkAdsPlayingSbyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openUrl",
+            "printedName": "openUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC7openUrlyySSF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC7openUrlyySSF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showIconWta",
+            "printedName": "showIconWta()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC11showIconWtayyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11showIconWtayyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideIconWta",
+            "printedName": "hideIconWta()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC11hideIconWtayyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC11hideIconWtayyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callTrackingWithType",
+            "printedName": "callTrackingWithType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC20callTrackingWithTypeyySSF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC20callTrackingWithTypeyySSF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "eventWith",
+            "printedName": "eventWith(timer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.Timer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Timer",
+                    "printedName": "Foundation.Timer",
+                    "usr": "c:objc(cs)NSTimer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI(im)eventWithTimer:",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC9eventWith5timerySo7NSTimerCSg_tF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "objc_name": "eventWithTimer:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeye6ChangeG0aypGSgSvSgtF",
+            "moduleName": "SSAITracking",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listenerPlayerTime",
+            "printedName": "listenerPlayerTime()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC18listenerPlayerTimeyyF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC18listenerPlayerTimeyyF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeHttpRequest",
+            "printedName": "makeHttpRequest(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC15makeHttpRequestyySSF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC15makeHttpRequestyySSF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeHttpRequestSync",
+            "printedName": "makeHttpRequestSync(address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC19makeHttpRequestSync7addressSDySSypGSS_tF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC19makeHttpRequestSync7addressSDySSypGSS_tF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeHttpRequestSessionSync",
+            "printedName": "makeHttpRequestSessionSync(address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC26makeHttpRequestSessionSync7addressySS_tF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC26makeHttpRequestSessionSync7addressySS_tF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertToDictionary",
+            "printedName": "convertToDictionary(text:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC19convertToDictionary4textSDySSypGSgSS_tF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC19convertToDictionary4textSDySSypGSgSS_tF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showLog",
+            "printedName": "showLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking9SigmaSSAIC7showLogyySSF",
+            "mangledName": "$s12SSAITracking9SigmaSSAIC7showLogyySSF",
+            "moduleName": "SSAITracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SigmaSSAI",
+                "printedName": "SSAITracking.SigmaSSAI",
+                "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI(im)init",
+            "mangledName": "$s12SSAITracking9SigmaSSAICACycfc",
+            "moduleName": "SSAITracking",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SSAITracking@objc(cs)SigmaSSAI",
+        "mangledName": "$s12SSAITracking9SigmaSSAIC",
+        "moduleName": "SSAITracking",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSAITracking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SigmaSSAIInterface",
+        "printedName": "SigmaSSAIInterface",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSessionFail",
+            "printedName": "onSessionFail()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking18SigmaSSAIInterfaceP13onSessionFailyyF",
+            "mangledName": "$s12SSAITracking18SigmaSSAIInterfaceP13onSessionFailyyF",
+            "moduleName": "SSAITracking",
+            "genericSig": "<τ_0_0 where τ_0_0 : SSAITracking.SigmaSSAIInterface>",
+            "sugared_genericSig": "<Self where Self : SSAITracking.SigmaSSAIInterface>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionInitSuccess",
+            "printedName": "onSessionInitSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking18SigmaSSAIInterfaceP20onSessionInitSuccessyySSF",
+            "mangledName": "$s12SSAITracking18SigmaSSAIInterfaceP20onSessionInitSuccessyySSF",
+            "moduleName": "SSAITracking",
+            "genericSig": "<τ_0_0 where τ_0_0 : SSAITracking.SigmaSSAIInterface>",
+            "sugared_genericSig": "<Self where Self : SSAITracking.SigmaSSAIInterface>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionUpdate",
+            "printedName": "onSessionUpdate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking18SigmaSSAIInterfaceP15onSessionUpdateyySSF",
+            "mangledName": "$s12SSAITracking18SigmaSSAIInterfaceP15onSessionUpdateyySSF",
+            "moduleName": "SSAITracking",
+            "genericSig": "<τ_0_0 where τ_0_0 : SSAITracking.SigmaSSAIInterface>",
+            "sugared_genericSig": "<Self where Self : SSAITracking.SigmaSSAIInterface>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTracking",
+            "printedName": "onTracking(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SSAITracking18SigmaSSAIInterfaceP10onTrackingyySSF",
+            "mangledName": "$s12SSAITracking18SigmaSSAIInterfaceP10onTrackingyySSF",
+            "moduleName": "SSAITracking",
+            "genericSig": "<τ_0_0 where τ_0_0 : SSAITracking.SigmaSSAIInterface>",
+            "sugared_genericSig": "<Self where Self : SSAITracking.SigmaSSAIInterface>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12SSAITracking18SigmaSSAIInterfaceP",
+        "mangledName": "$s12SSAITracking18SigmaSSAIInterfaceP",
+        "moduleName": "SSAITracking",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 12,
+      "value": "\"impression\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 7,
+      "value": "\"start\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 15,
+      "value": "\"firstQuartile\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 10,
+      "value": "\"complete\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 15,
+      "value": "\"thirdQuartile\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 6,
+      "value": "\"mute\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 8,
+      "value": "\"unmute\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 7,
+      "value": "\"pause\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 8,
+      "value": "\"resume\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 10,
+      "value": "\"progress\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 10,
+      "value": "\"midpoint\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 12,
+      "value": "\"impression\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 7,
+      "value": "\"start\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 15,
+      "value": "\"firstQuartile\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 10,
+      "value": "\"complete\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 15,
+      "value": "\"thirdQuartile\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 6,
+      "value": "\"mute\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 8,
+      "value": "\"unmute\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 7,
+      "value": "\"pause\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 8,
+      "value": "\"resume\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 10,
+      "value": "\"progress\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 10,
+      "value": "\"midpoint\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 617,
+      "length": 27,
+      "value": "\"Programmatic Access Nonce\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 1434,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 1491,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 1517,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 1539,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "FloatLiteral",
+      "offset": 1659,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1817,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1886,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2036,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2100,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2126,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2154,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2181,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "FloatLiteral",
+      "offset": 2210,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2236,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 2269,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2300,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/phamhai\/Documents\/works\/company-project\/sigma-dai-avplayer-ssai-plugin\/SSAITracking\/SigmaSSAI.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 9,
+      "value": "\"SSAITracking.SigmaSSAI\""
+    }
+  ]
+}
